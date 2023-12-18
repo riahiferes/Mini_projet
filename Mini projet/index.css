@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #c9a0a0;
+    color: #0f0e0e;
+    border: 5px solid #ccc;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    border-bottom: 4px solid #333333;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+ul {
+    padding: 0;
+}
+
+ul > p {
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.profile {
+    margin-bottom: 30px;
+}
+
+.personal-info {
+    margin-bottom: 30px;
+}
+
+.languages {
+    margin-bottom: 30px;
+}
+
+.interests {
+    margin-bottom: 30px;
+}
+
+.links a::after {
+    content: ' | ';
+}
+
+.links a:last-child::after {
+    content: '';
+}
